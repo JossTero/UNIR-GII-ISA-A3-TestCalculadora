@@ -1,4 +1,3 @@
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -34,7 +33,7 @@ public final class CalculadoraTests {
         double resultadoEsperado = 22.0;
 
         //act
-        double resultado = 0.0; // Pendiente de desarrollo
+        double resultado = Calculadora.sumar(entrada1, estrada2);
 
         //assert
         String mensajeError = "Error en TEST de suma porque el resultado esperado era " + entrada1 + "+" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -49,7 +48,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 1.0;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.sumar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de suma porque el resultado esperado era " + entrada1 + "+" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -64,7 +63,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -8.1;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.sumar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de suma porque el resultado esperado era " + entrada1 + "+" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -79,7 +78,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -112.3;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.sumar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de suma porque el resultado esperado era " + entrada1 + "+" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -104,7 +103,7 @@ public final class CalculadoraTests {
         
 
         //act
-        double resultado = 0.0; // Pendiente de desarrollo
+        double resultado = Calculadora.restar(entrada1, estrada2);
 
         //assert
         String mensajeError = "Error en TEST de resta porque el resultado esperado era " + entrada1 + "-" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -119,7 +118,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 12.8;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.restar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de resta porque el resultado esperado era " + entrada1 + "-" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -134,7 +133,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -40.55;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.restar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de resta porque el resultado esperado era " + entrada1 + "-" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -149,7 +148,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 0.0;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.restar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de resta porque el resultado esperado era " + entrada1 + "-" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -173,7 +172,7 @@ public final class CalculadoraTests {
         double resultadoEsperado = 78.5;
 
         //act
-        double resultado = 0.0; // Pendiente de desarrollo
+        double resultado = Calculadora.multiplicar(entrada1, estrada2);
 
         //assert
         String mensajeError = "Error en TEST de multiplicación porque el resultado esperado era " + entrada1 + "*" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -188,7 +187,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -80.19;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.multiplicar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de multiplicación porque el resultado esperado era " + entrada1 + "*" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -203,7 +202,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -25.0;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.multiplicar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de multiplicación porque el resultado esperado era " + entrada1 + "*" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -218,7 +217,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 1525.41;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.multiplicar(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de multiplicación porque el resultado esperado era " + entrada1 + "*" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -242,7 +241,7 @@ public final class CalculadoraTests {
         double resultadoEsperado = 3.4447;
 
         //act
-        double resultado = 0.0; // Pendiente de desarrollo
+        double resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         String mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -257,7 +256,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -8.024;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -272,7 +271,7 @@ public final class CalculadoraTests {
         resultadoEsperado = -28.1452;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -287,7 +286,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 1.0;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -302,7 +301,7 @@ public final class CalculadoraTests {
         resultadoEsperado = Double.POSITIVE_INFINITY;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -317,7 +316,7 @@ public final class CalculadoraTests {
         resultadoEsperado = Double.NEGATIVE_INFINITY;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -332,7 +331,7 @@ public final class CalculadoraTests {
         resultadoEsperado = Double.NaN;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.dividir(entrada1, estrada2);
 
         //assert
         mensajeError = "Error en TEST de división porque el resultado esperado era " + entrada1 + "/" + estrada2 + "=" + resultadoEsperado + " y es " + resultado;
@@ -356,7 +355,7 @@ public final class CalculadoraTests {
         double resultadoEsperado = 5.0249;
 
         //act
-        double resultado = 0.0; // Pendiente de desarrollo
+        double resultado = Calculadora.raizCuadrada(entrada);
 
         //assert
         String mensajeError = "Error en TEST de raíz cuadrada porque el resultado esperado era sqrt(" + entrada + ")=" + resultadoEsperado + " y es " + resultado;
@@ -370,7 +369,7 @@ public final class CalculadoraTests {
         resultadoEsperado = Double.NaN;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.raizCuadrada(entrada);
 
         //assert
         mensajeError = "Error en TEST de raíz cuadrada porque el resultado esperado era sqrt(" + entrada + ")=" + resultadoEsperado + " y es " + resultado;
@@ -384,7 +383,7 @@ public final class CalculadoraTests {
         resultadoEsperado = 0.0;
 
         //act
-        resultado = 0.0; // Pendiente de desarrollo
+        resultado = Calculadora.raizCuadrada(entrada);
 
         //assert
         mensajeError = "Error en TEST de raíz cuadrada porque el resultado esperado era sqrt(" + entrada + ")=" + resultadoEsperado + " y es " + resultado;
