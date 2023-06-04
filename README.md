@@ -13,9 +13,9 @@ La aplicación consistirá en una calculadora sencilla capaz de realizar las sig
 1.	Suma y resta de números reales.
 2.	Multiplicación y división de números reales.
 3.	Raíz cuadrada de números reales. Deberéis identificar un método de cálculo aproximado, al no poder utilizar funciones de la librería matemática.
-4.	Función exponencial con base e. Deberéis identificar un método de cálculo aproximado, al no poder utilizar funciones de la librería matemática.
+4.	Función exponencial con base e. Deberéis identificar un método de cálculo aproximado, al no poder utilizar funciones de la librería matemática. -> **NOTA**: Esta funcionalidad nos dice el profesor en la clase que no es necesario implementarla, por lo que la descartamos.
 
-Para las operaciones 3 y 4 no podrás hacer uso de ninguna librería matemática y deberás utilizar operaciones básicas como la suma, resta, multiplicación y división, empleando para ello las funciones de la propia calculadora implementadas en los pasos anteriores. La precisión alcanzada en los cálculos debe ser superior a 10-3.
+Para las operaciones 3 y 4 no podrás hacer uso de ninguna librería matemática y deberás utilizar operaciones básicas como la suma, resta, multiplicación y división, empleando para ello las funciones de la propia calculadora implementadas en los pasos anteriores. La precisión alcanzada en los cálculos debe ser superior a 10^-3.
 
 No existe ninguna restricción en cuanto a la tecnología o formato de la aplicación. Puede ser una simple aplicación de línea de comandos en C# o en Java, una aplicación con GUI, una aplicación web, una aplicación móvil Android, una API… Encontrarás tutoriales específicos relacionados con las técnicas TDD y BDD para casi cualquier lenguaje y frameworks de desarrollo moderno existentes.
 
