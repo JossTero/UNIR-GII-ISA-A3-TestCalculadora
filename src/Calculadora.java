@@ -55,7 +55,7 @@ public final class Calculadora {
      * @return                      : El cociente de la división
      */
     public static double dividir(double dividendo, double divisor){
-        return 0;
+        return dividendo / divisor;
     }
 
     /**
@@ -66,7 +66,7 @@ public final class Calculadora {
      * @return                      : La raíz
      */
     public static double raizCuadrada(double cantidadSubradical){
-        return 0;
+        return sqrt(2, cantidadSubradical);
     }    
 }
 
