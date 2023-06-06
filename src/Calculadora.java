@@ -67,6 +67,30 @@ public final class Calculadora {
      */
     public static double raizCuadrada(double cantidadSubradical){
         return sqrt(2, cantidadSubradical);
-    }    
+    }  
+    
+    /**
+     * Operación aritmética de ráiz dos números reales
+     * 
+     * @param indice                : El índice de la raíz
+     * @param cantidadSubradical    : La cantidad subradical
+     * @param delta                 : La precisión mínima para dar por válida el resultado
+     * @return                      : La raíz
+     */
+    private static double sqrt(int indice, double cantidadSubradical){
+        double raiz = 0;
+        if(cantidadSubradical > 0){
+            double aux = 0;
+            raiz = dividir(cantidadSubradical, indice);
+            do{
+                aux = raiz;
+                raiz =  dividir(sumar(aux, dividir(cantidadSubradical, aux)), indice);
+            } while (restar(aux, raiz) !=0);
+        } else if(cantidadSubradical != 0) {
+            raiz = Double.NaN;
+        }        
+        return raiz;
+    }
+
 }
 
